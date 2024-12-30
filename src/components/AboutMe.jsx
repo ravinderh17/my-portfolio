@@ -11,7 +11,7 @@ export default function AboutMe() {
         </div>
         <div className=" p-4 flex items-center justify-center flex-1">
           <img 
-            src="/public/assets/resume=photo.png" 
+            src="/resume=photo.png" 
             alt="AboutMe-Image" 
             className="max-w-md rounded-3xl"
           />

@@ -17,7 +17,7 @@ export default function Projects() {
               type: "WEB APP",
               github: "https://github.com/ravinderh17/PrimeHomes_Full-Stack_WebApp",
               liveDemo: "https://primehomes.onrender.com/",
-              image: "/public/assets/Primehomes-landing-page.png",
+              image: "/Primehomes-landing-page.png",
               description:
                 "A comprehensive Real Estate WebApp designed to provide users with a seamless property searching and management experience.",
               tags: ["ReactJS", "TailwindCSS", "NodeJS"],
@@ -27,7 +27,7 @@ export default function Projects() {
               type: "WEBSITE",
               github: "",
               liveDemo: "#",
-              image: "/public/assets/portfolio.png",
+              image: "/portfolio.png",
               description: "This project showcases a modern design and smooth user experience to highlight personal skills, projects, and professional achievements. ",
               tags: ["ReactJS", "Tailwind CSS"],
             },
@@ -36,7 +36,7 @@ export default function Projects() {
               type: "WEB APP",
               github: "https://github.com/ravinderh17/react-shopping-cart",
               liveDemo: "https://react-shopping-cart-kappa-six.vercel.app/",
-              image: "/public/assets/Product-Cart-homepage.PNG",
+              image: "/Product-Cart-homepage.PNG",
               description:
                 "A fully functional prototype demonstrating the core functionality of a shopping cart system for an e-commerce platform, built using ReduxToolKit.",
               tags: ["ReactJS", "Redux"],
@@ -46,7 +46,7 @@ export default function Projects() {
               type: "WEB APP",
               github: "https://github.com/ravinderh17/Code_Editor_Application",
               liveDemo: "http://codepen-clone-f0ca8.web.app/",
-              image: "/public/assets/code-editor-ss.png",
+              image: "/code-editor-ss.png",
               description:
                 "Developed a real-time code editor application facilitating live editing with instant preview functionality for different programming languages code.",
               tags: ["ReactJS", "MaterialUI"],
@@ -56,7 +56,7 @@ export default function Projects() {
               type: "WEB APP",
               github: "https://github.com/ravinderh17/proveway-assignment",
               liveDemo: "https://ravinderh17.github.io/proveway-assignment/",
-              image: "/public/assets/BOGO.png",
+              image: "/BOGO.png",
               description:
                 "A pricing and cart prototype, demonstrates responsive design and an interactive user experience with a &ldquo;Buy One Get One&rdquo; (BOGO) promotion feature.",
               tags: ["JavaScript"],
@@ -66,7 +66,7 @@ export default function Projects() {
               type: "WEB APP",
               github: "https://github.com/ravinderh17/ResponsiveTestimonialPortal",
               liveDemo: "https://ravinderh17.github.io/ResponsiveTestimonialPortal/",
-              image: "/public/assets/reviews (2).png",
+              image: "/reviews (2).png",
               description:
                 "A fully responsive portal designed to showcase user testimonials. This lightweight project features a clean layout and dynamic styling, making it perfect for modern websites.",
               tags: ["CSS (Flexbox)"],
@@ -76,7 +76,7 @@ export default function Projects() {
               type: "GUI APP",
               github: "https://github.com/ravinderh17/ExcelEase_Data_Manager",
               liveDemo: "",
-              image: "/public/assets/data-manager-python-ss.png",
+              image: "/data-manager-python-ss.png",
               description:
                 "ExcelEase is a user-friendly application, developed for Excel management to provide users with a seamless and intuitive experience for viewing and entering data.",
               tags: ["Python", "Tkinter"],

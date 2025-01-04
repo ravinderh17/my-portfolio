@@ -9,7 +9,7 @@ export default function Projects() {
         <p className="mt-8 text-pretty text-lg font-medium text-gray-700 sm:text-xl/8">
           Below is the selection of recent projects that I&apos;ve worked on.
         </p>
-        <div className="mt-8 mx-10 flex-wrap flex gap-x-2 justify-between gap-y-4 sm:items-center">
+        <div className=" mx-auto flex-wrap flex gap-x-2 justify-between gap-y-8  sm:items-center">
           {/* Project Card Component */}
           {[
             {
@@ -84,16 +84,16 @@ export default function Projects() {
           ].map((project, index) => (
             <div
               key={index}
-              className="max-h-[500px] max-w-md flex flex-col rounded-lg text-left  px-4 pt-4"
+              className="relative mx-auto  max-w-md flex flex-col rounded-lg text-left  px-4 pt-4  "
             >
               <a href={project.liveDemo || project.github}>
                 <img
-                  className="h-[240px] rounded-xl drop-shadow-full  w-[450px] border border-slate-100"
+                  className="h-[240px] relative rounded-xl drop-shadow-full  w-[450px] border border-slate-100"
                   src={project.image}
                   alt={project.title}
                 />
               </a>
-              <div className="px-4 py-1.5 pt-4 rounded-xl relative z-10 mx-8 bottom-16 bg-gradient-to-r from-stone-100 to-stone-100 drop-shadow-2x ">
+              <div className="relative px-4 py-1.5 pt-4 rounded-xl relative z-10 mx-8 bottom-16 bg-gradient-to-r from-stone-100 to-stone-100 drop-shadow-2x ">
                 <div className="flex justify-between text-sm uppercase">
                   <p>{project.type}</p>
                   <a href={project.github} className="hover:underline">

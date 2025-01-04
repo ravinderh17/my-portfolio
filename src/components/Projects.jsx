@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
     <div>
-      <div className="text-center">
+      <div className="text-center mt-20">
         <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
           Personal Projects
         </h1>
@@ -17,7 +17,7 @@ export default function Projects() {
               type: "WEB APP",
               github: "https://github.com/ravinderh17/PrimeHomes_Full-Stack_WebApp",
               liveDemo: "https://primehomes.onrender.com/",
-              image: "/Primehomes-landing-page.png",
+              image: "/PRIMEHOMES-MOCKUP.png",
               description:
                 "A comprehensive Real Estate WebApp designed to provide users with a seamless property searching and management experience.",
               tags: ["ReactJS", "TailwindCSS", "NodeJS"],
@@ -27,7 +27,7 @@ export default function Projects() {
               type: "WEBSITE",
               github: "",
               liveDemo: "#",
-              image: "/portfolio.png",
+              image: "/PORTFOLIO-MOCKUP.png",
               description: "This project showcases a modern design and smooth user experience to highlight personal skills, projects, and professional achievements. ",
               tags: ["ReactJS", "Tailwind CSS"],
             },
@@ -36,7 +36,7 @@ export default function Projects() {
               type: "WEB APP",
               github: "https://github.com/ravinderh17/react-shopping-cart",
               liveDemo: "https://react-shopping-cart-kappa-six.vercel.app/",
-              image: "/Product-Cart-homepage.PNG",
+              image: "/PRoduct-MOCKUP.png",
               description:
                 "A fully functional prototype demonstrating the core functionality of a shopping cart system for an e-commerce platform, built using ReduxToolKit.",
               tags: ["ReactJS", "Redux"],
@@ -84,16 +84,16 @@ export default function Projects() {
           ].map((project, index) => (
             <div
               key={index}
-              className="max-h-[480px] max-w-sm flex flex-col rounded-lg text-left"
+              className="max-h-[500px] max-w-md flex flex-col rounded-lg text-left  px-4 pt-4"
             >
               <a href={project.liveDemo || project.github}>
                 <img
-                  className="h-[200px] rounded-xl drop-shadow-xl w-[390px]"
+                  className="h-[240px] rounded-xl drop-shadow-full  w-[450px] border border-slate-100"
                   src={project.image}
                   alt={project.title}
                 />
               </a>
-              <div className="px-4 py-1.5 pt-4 rounded-xl relative z-10 mx-8 bottom-16 bg-white drop-shadow-2xl">
+              <div className="px-4 py-1.5 pt-4 rounded-xl relative z-10 mx-8 bottom-16 bg-gradient-to-r from-stone-100 to-stone-100 drop-shadow-2x ">
                 <div className="flex justify-between text-sm uppercase">
                   <p>{project.type}</p>
                   <a href={project.github} className="hover:underline">
@@ -113,9 +113,9 @@ export default function Projects() {
                 <p className="my-3 text-md font-normal">{project.description}</p>
                 <a
                   href={project.liveDemo || project.github}
-                  className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-red-200 via-red-300 to-yellow-200 group-hover:from-red-200 group-hover:via-red-300 group-hover:to-yellow-200 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400"
+                  className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 font-semibold  overflow-hidden text-sm  text-gray-900 rounded-lg group bg-gradient-to-br from-red-200 via-red-300 to-yellow-200 group-hover:from-red-200 group-hover:via-red-300 group-hover:to-yellow-200 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400"
                 >
-                  <span className="relative flex px-3 py-2 transition-all ease-in duration-75 bg-white text-black rounded-md group-hover:bg-opacity-0">
+                  <span className="relative flex px-3 py-2 transition-all ease-in duration-75 bg-white text-black rounded-md items-center justify-center  group-hover:bg-opacity-0">
                     {project.liveDemo ? "Live Demo" : "See Code"}
                     <svg
                       className="rtl:rotate-180 w-3.5 h-3.5 ms-2"

@@ -22,7 +22,7 @@ export default function Home() {
   }
 
   return (
-    <div className="bg-white">
+    <div className="bg-gradient-to-r from-neutral-100 to-stone-200">
       <header className="sticky top-0 z-50 bg-transparent inset-x-0">
         <nav aria-label="Global" className="sticky top-0 z-50 flex items-center justify-center p-6 lg:px-8">
           <div className="flex justify-between items-center w-full max-w-7xl mx-auto">
@@ -30,12 +30,11 @@ export default function Home() {
             <a href="#" className="text-lg font-medium">
               Ravinder Kaur
             </a>
-
             {/* Desktop Navigation Links */}
             <div className="hidden lg:flex lg:gap-x-12">
               {navigation.map((item) => (
                 <a
-                  key={item.name}
+                  key={item.name}              
                   href={item.href}
                   target={item.target}
                   className="text-sm font-semibold text-gray-900 hover:text-gray-700"
@@ -97,7 +96,7 @@ export default function Home() {
       </header>
 
       <div className="relative  isolate px-6 pt-14 lg:px-8">
-        <div
+        {/* <div
           aria-hidden="true"
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         >
@@ -108,7 +107,7 @@ export default function Home() {
             }}
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
           />
-        </div>
+        </div> */}
         
         <div className=" mx-auto max-w-2xl py-32 sm:py-48 lg:py-8 lg:mx-auto ">
           
@@ -140,8 +139,10 @@ export default function Home() {
           </div>
         </div>
 
-        <section id="projects" className="mx-auto max-w-4xl py-12 sm:py-48 lg:py-10">
+        <section id="projects" className="mx-auto max-w-5xl py-12 sm:py-48 lg:py-10">
             <Projects/>
+
+      
         </section>
 
         <section id="about-me" className="mx-auto max-w-4xl py-32 sm:py-48 lg:py-8 ">
@@ -178,7 +179,7 @@ export default function Home() {
           />
         </div> */}
       </div>
-
+   
     </div>
   )
 }

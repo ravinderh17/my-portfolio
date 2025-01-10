@@ -10,7 +10,7 @@ import Projects from './Projects'
 const navigation = [
   { name: 'Home', href: '#' },
   { name: 'Projects', href: '#projects' },
-  { name: 'Resume', href: '/Ravinder_Kaur_Resume__Copy___Copy_.pdf', target: '_blank' }, // Correct path
+  { name: 'Resume', href: '/Resume_RavinderHundal.pdf', target: '_blank' }, // Correct path
   { name: 'About', href: '#about-me' },
 ]
 
@@ -28,7 +28,7 @@ export default function Home() {
           <div className="flex justify-between items-center w-full max-w-7xl mx-auto">
             {/* Brand Name */}
             <a href="#" className="text-lg font-medium">
-              Ravinder Kaur
+            Ravinder Hundal
             </a>
             {/* Desktop Navigation Links */}
             <div className="hidden lg:flex lg:gap-x-12">
@@ -63,7 +63,7 @@ export default function Home() {
           <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="">Ravinder Kaur</span>
+                <span className="">Ravinder Hundal</span>
               </a>
               <button
                 type="button"
@@ -129,7 +129,7 @@ export default function Home() {
               >
                 My Projects
               </a>
-              <a href="/public/assets/Ravinder_Kaur_Resume__Copy___Copy_.pdf"
+              <a href="/public/Resume_RavinderHundal.pdf"
                target="_blank" 
                rel="noopener noreferrer"
                className="text-sm/6 font-semibold text-gray-900">

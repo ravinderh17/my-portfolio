@@ -129,7 +129,7 @@ export default function Home() {
               >
                 My Projects
               </a>
-              <a href="/public/Resume_RavinderHundal.pdf"
+              <a href="/Resume_RavinderHundal.pdf"
                target="_blank" 
                rel="noopener noreferrer"
                className="text-sm/6 font-semibold text-gray-900">
